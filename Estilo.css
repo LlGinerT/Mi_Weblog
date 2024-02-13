@@ -1,9 +1,16 @@
 .encabezado-pie {
-  background-color:black;
+  background-color: black;
   color: white;
   padding: 16px;
   text-align: center;
-  
+}
+
+a {
+  color: #1b67c9;
+}
+
+a:visited {
+  color: #f00d0d;
 }
 
 header {
@@ -19,7 +26,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
