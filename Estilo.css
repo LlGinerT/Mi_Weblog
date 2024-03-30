@@ -1,8 +1,20 @@
+/* Se crea una clase para unificar los atributos comunes 
+que tienen el header y el footer*/
 .encabezado-pie {
   background-color: black;
   color: white;
   padding: 16px;
   text-align: center;
+}
+
+/* Después se declaran los atributos únicos que tienen cada uno 
+de ellos */
+header {
+  margin: 0;
+}
+
+footer {
+  margin-top: 50px;
 }
 
 a {
@@ -13,22 +25,17 @@ a:visited {
   color: #f00d0d;
 }
 
-header {
-  margin: 0;
-}
-
-footer {
-  margin-top: 50px;
-}
-
 html,
 body {
   height: 100%;
   padding: 0;
-  margin: 0;
+  margin: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
+/* 
+Se aplican también cambios en el body y el main, para rellenar los huecos
+y solucionar un error que daba en ciertos navegadores en el que el footer no 
+quedaba abajo */
 body {
   display: flex;
   flex-direction: column;
@@ -37,4 +44,44 @@ body {
 main {
   flex: 1;
   margin-left: 10px;
+}
+
+form {
+  background-color: black;
+  width: 500px;
+  padding: 16px;
+  margin: auto;
+}
+
+/* Se introduce una flexbox en la clase "formulario" 
+y el margin-left en el input para dejar el formulario más "ordenado".*/
+.formulario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+label {
+  width: 100px;
+  font-weight: bold;
+  color: white;
+}
+
+input {
+  width: 350px;
+  background-color: white;
+  margin: 8px;
+  margin-left: -19px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+
+button {
+  width: 100%;
+  margin-top: 16px;
+  color: white;
+  background-color: black;
 }

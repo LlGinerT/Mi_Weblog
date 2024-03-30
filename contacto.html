@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="uft-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Weblog de Programación</title>
     <link rel="stylesheet" href="Estilo.css" />
@@ -19,7 +19,34 @@
         <li><a href="Mi_primera_web.html#CSS3">CSS3</a></li>
         <li>Sobre nosotros...</li>
       </ul>
-      <form></form>
+      <form action="" name="Contacto">
+        <div class="formulario">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Nombre y apellidos"
+            required
+          />
+        </div>
+        <div class="formulario">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ejemplo@correo.com"
+            required
+          />
+        </div>
+        <div class="formulario">
+          <label for="mensaje">Mensaje:</label>
+          <textarea name="mensaje" id="mensaje"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+      </form>
     </main>
     <footer class="encabezado-pie">
       @2024 <a href="mailto:emailcliente@dominiocliente.com">Email cliente</a>
