@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <tittle>Manual HTML5</tittle>
+        <link>https://www.manualweb.net/html5/</link>
+        <description>Manual de introducción a HTML5</description>
+        <item>
+            <tittle>Introducción HTML5</tittle>
+            <link>https://www.manualweb.net/html5/introduccion-html5/</link>
+            <description>En esta introducción HTML5 vemos que HTML5 es un lenguaje de marcas que nos
+                permite el desarrollo de páginas web, al cual se le han añadido un conjunto de
+                capacidades que nos permiten explotar las capacidades de los dispositivos en temas
+                de multimedia, rendimiento, offline, interacción con el usuario,…</description>
+        </item>
+        <item>
+            <tittle>Documento HTML5</tittle>
+            <link>https://www.manualweb.net/html5/documento-html5/</link>
+            <description>En esta introducción HTML5 vemos la estructura basica para declarar un
+                documento HTML5 para que el navegador lo reconozca como tal.</description>
+        </item>
+        <item>
+            <tittle>Semántica HTML5</tittle>
+            <link>https://www.manualweb.net/html5/semantica-html5/</link>
+            <description>La semántica HTML5 permite estructurar mucho mejor las páginas web
+                definiendo las partes que la componen de una forma mucho más entendible. Pero vamos
+                a analizar primero como se estructuraban las páginas en HTML 4 para entender el
+                avance semántico que hemos tenido en HTML5.</description>
+        </item>
+    </channel>
+</rss>
